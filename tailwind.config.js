@@ -6,7 +6,14 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+            "hanken-grotesk": ["Hanken Grotesk", "sans-serif"],
+        },
+        fontSize: {
+            "2xs": "0.625rem",
+        },
+    },
   },
   plugins: [],
 }
