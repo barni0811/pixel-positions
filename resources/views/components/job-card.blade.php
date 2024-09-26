@@ -8,9 +8,9 @@
 
     <div class="flex justify-between items-center mt-auto">
         <div>
-            <x-tag class="size-small">Backend</x-tag>
-            <x-tag class="size-small">Frontend</x-tag>
-            <x-tag class="size-small">Manager</x-tag>
+            <x-tag size="small">Backend</x-tag>
+            <x-tag size="small">Frontend</x-tag>
+            <x-tag size="small">Manager</x-tag>
         </div>
 
         <x-employer-logo :width="42"></x-employer-logo>
